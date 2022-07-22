@@ -34,7 +34,6 @@ Now that we've created an executable ADDA file for the cluster, we need to set u
 4. Open the shell file and paste the following:
 
 ```
-
 #!/bin/sh
 #PBS -l walltime=0:10:00
 #PBS -l nodes=1:ppn=1
@@ -59,7 +58,6 @@ echo ------------------------------------------------------
 ulimit -s unlimited
 cd /home/<user>/clusterTest
 /home/<user>/adda/src/seq/adda
-
 ```
 
 Replace <user> with your cluster username. For example, if your username was `johnsmith123`, the bottom 3 lines would read:
