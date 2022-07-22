@@ -73,6 +73,7 @@ A few notes about some of the lines in the shell file:
 - `ulimit -s unlimited`: Indicates that we would like to request the maximum stack (type of memory) size available.
 - `cd /home/<user>/clusterTest`: Tells the cluster that where the current directory should be. This determines where your output files are dumped.
 - `/home/<user>/adda/src/seq/adda`: Tells the cluster what executable file to run. You can append arguments to this in the usual format. For example: `/home/johnsmith123/adda/src/seq/adda –grid 16 –m 1.5 0 –dpl 15`
+  
 5. Now that the shell file has been made, we are almost ready to submit the job to the cluster. In PuTTY, navigate to the location of the shell file using:
 ```
 cd; cd/clusterTest
