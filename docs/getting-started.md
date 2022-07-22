@@ -68,12 +68,14 @@ cd /home/<user>/clusterTest
 /home/<user>/adda/src/seq/adda
 ```
 
-Replace <user> with your cluster username. For example, if your username was `johnsmith123`, the bottom 3 lines would read:
+Replace `<user>` with your cluster username. For example, if your username was `johnsmith123`, the bottom 3 lines would read:
+
 ```
 ulimit -s unlimited
 cd /home/johnsmith123/clusterTest
 /home/johnsmith123/adda/src/seq/adda  
 ```
+
 A few notes about some of the lines in the shell file:
 - `#PBS -l walltime=0:10:00`: Indicates that we would like to request a maximum of 10 minutes on the cluster for this job. The job will be terminated if it exceeds this amount.
 - `#PBS -l nodes=1:ppn=1`: Indicates that we would like to request 1 node and 1 part per node. According to the [cluster wiki](https://uhhpc.herts.ac.uk/wiki/index.php/Jobs), the number of nodes should be set to 1 for single jobs that don't use MPI. You may choose to increase the number of parts per node (up to a maximum of 32) for future jobs.
