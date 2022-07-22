@@ -11,6 +11,6 @@ or email me at `h.ballington@herts.ac.uk`.
 
 This short GitHub Pages tutorial discusses:
 
-* [Getting Started](adda.md)
+* [Getting Started](getting-started.md)
 
-[Next page](adda.md)
+[Next page](getting-started.md)
