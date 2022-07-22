@@ -32,7 +32,10 @@ Now that we've created an executable ADDA file for the cluster, we need to set u
 2. Make a new directory (shortcut F7) in your home folder. Name it `clusterTest` (case-sensitive!). 
 3. Within the `clusterTest` directory, make a new file and name it `adda.sh`. This is our ADDA shell file. It will contain information about our job requirements and the settings that we want to run ADDA with. 
 4. Open the shell file and paste the following:
-
+```
+yutfjytrj
+kjuvjytvj
+```
 Replace <user> with your cluster username. For example, if your username was `johnsmith123`, the bottom 3 lines would read:
 ```
 ulimit -s unlimited
