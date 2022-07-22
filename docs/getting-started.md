@@ -69,7 +69,7 @@ cd /home/johnsmith123/clusterTest
   - `#PBS -l nodes=1:ppn=1`: Indicates that we would like to request 1 node and 1 part per node. According to the [cluster wiki](https://uhhpc.herts.ac.uk/wiki/index.php/Jobs), the number of nodes should be set to 1 for single jobs that don't use MPI. You may choose to increase the number of parts per node (up to a maximum of 32) for future jobs.
   - `#PBS -k oe`: Indicates that we would like output and error file ouputs (useful for debugging).
   - `ulimit -s unlimited`: Indicates that we would like to request the maximum stack (type of memory) size available.
-  - `cd /home/<user>/clusterTest`: Tells the cluster that where the current directory should be. This determines where your output files are dumped.
+  - `cd /home/<user>/clusterTest`: Tells the cluster where the current directory should be. This determines where your output files are dumped.
   - `/home/<user>/adda/src/seq/adda`: Tells the cluster what executable file to run. You can append arguments to this in the usual format. For example: `/home/johnsmith123/adda/src/seq/adda –grid 16 –m 1.5 0 –dpl 15`
 
 - Now that the shell file has been made, we are almost ready to submit the job to the cluster. In PuTTY, navigate to the location of the shell file using:
