@@ -43,11 +43,9 @@ Now that we've created an executable ADDA file for the cluster, we need to set u
 
 
 5. Now that the shell file has been made, we are almost ready to submit the job to the cluster. In PuTTY, navigate to the location of the shell file using:
-
 ```
 cd; cd/clusterTest
 ```
-
 6. Now we can submit the job. In PuTTY, use:
 ```
 qsub adda.sh
