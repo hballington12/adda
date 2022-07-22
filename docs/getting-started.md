@@ -40,7 +40,7 @@ Now that we've created an executable ADDA file for the cluster, we need to set u
 3. Within the `clusterTest` directory, make a new file and name it `adda.sh`. This is our ADDA shell file. It will contain information about our job requirements and the settings that we want to run ADDA with. 
 4. Open the shell file and paste the following:
 
-
+```
     #!/bin/sh
     #PBS -l walltime=0:10:00
     #PBS -l nodes=1:ppn=1
@@ -65,7 +65,7 @@ Now that we've created an executable ADDA file for the cluster, we need to set u
     ulimit -s unlimited
     cd /home/<user>/clusterTest
     /home/<user>/adda/src/seq/adda
-
+```
 5. Now that the shell file has been made, we are almost ready to submit the job to the cluster. In PuTTY, navigate to the location of the shell file using:
 ```
 cd; cd/clusterTest
