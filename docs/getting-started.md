@@ -76,7 +76,7 @@ cd /home/johnsmith123/clusterTest
 ```
 cd; cd/clusterTest
 ```
-  - Now we can submit the job. In PuTTY, use:
+- Now we can submit the job. In PuTTY, use:
 ```
 qsub adda.sh
 ``` 
