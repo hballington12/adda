@@ -1,4 +1,4 @@
-# Getting started with ADDA on the UHHPC Cluster
+# Getting started
 
 Insert stuff here
 
