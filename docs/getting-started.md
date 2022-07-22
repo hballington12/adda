@@ -25,7 +25,7 @@ make seq
 ```
 This should create some `.o` files, as well as an exectuable file called `adda` in the `/home/<user>/adda/src/seq` directory. The `adda` executable file is a compiled version of all the ADDA source code, which can be understood by the cluster to run ADDA computations. In the next section, we will look at how to submit a job on the cluster using the `adda` executable file.
 
-## Submitting an ADDA Job to the Cluster
+
 
 
 [Previous page](privacy-warning.md)
