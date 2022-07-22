@@ -28,6 +28,6 @@ This should create some `.o` files, as well as an exectuable file called `adda` 
 
 
 
-[Previous page](privacy-warning.md)
+[Previous page](./README.md)
 
 #### [Home](./README.md) 
