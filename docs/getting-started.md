@@ -12,7 +12,6 @@ To get started with ADDA on the UHHPC cluster, we need to compile the ADDA sourc
 
 ```
 module load gcc-6.4
-
 ```
 
 3. Next, we will use the git module to add the ADDA source code into our `\home` directory. The git module is already installed on the cluster and the source code can be added using the `clone` command. In PuTTY, use the command: 
