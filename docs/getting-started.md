@@ -23,7 +23,15 @@ cd adda/src
 ```
 make seq
 ```
-This should create some `.o` files, as well as an exectuable file called `adda` in the `/home/<user>/adda/src/seq` directory. The `adda` executable file is a compiled version of all the ADDA source code, which can be understood by the cluster to run ADDA computations. In the next section, we will look at how to submit a job on the cluster using the `adda` executable file.
+This should create some `.o` files, as well as an exectuable file called `adda` in the `/home/<user>/adda/src/seq` directory. The `adda` executable file is a compiled version of all the ADDA source code, which can be understood by the cluster to run ADDA computations. An MPI version of ADDA can also be created. To do this, first load the mpi module. In PuTTY, use the command:
+```
+module load mpi
+```
+Then compile an MPI version of the ADDA code by running:
+```
+make mpi
+```
+In the next section, we will look at how to submit a job on the cluster using the `adda` executable file.
 
 ## Submitting an ADDA Job on the Cluster
 
