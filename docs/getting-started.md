@@ -80,6 +80,8 @@ cd /home/johnsmith123/clusterTest
   - `cd /home/<user>/clusterTest`: Tells the cluster where the current directory should be. This determines where your output files are dumped.
   - `/home/<user>/adda/src/seq/adda`: Tells the cluster what executable file to run. You can append arguments to this in the usual format. For example: `/home/johnsmith123/adda/src/seq/adda –grid 16 –m 1.5 0 –dpl 15`
 
+- For the MPI version of ADDA, change the exectuable filename accordingly, from `adda` to `adda_mpi`. The number of processes allocated to the job can be adjusted by changed the parts per node (ppn) on line 3. Please be wary that the log file does not correctly identify the number of processes.
+
 - Now that the shell file has been made, we are almost ready to submit the job to the cluster. In PuTTY, navigate to the location of the shell file using:
 ```
 cd; cd/clusterTest
